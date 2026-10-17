@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 use SugarCraft\Vterm\Buffer\Buffer;
 use SugarCraft\Vterm\Cell;
 use SugarCraft\Vterm\Handler\ScreenHandler;
-use SugarCraft\Ansi\Parser\Parser;
+use SugarCraft\AnsiParser\Parser\Parser;
 
 /**
  * IL (CSI L) / DL (CSI M) — insert and delete lines within DECSTBM.

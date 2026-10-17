@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 use SugarCraft\Vterm\Buffer\Buffer;
 use SugarCraft\Vterm\Handler\ScreenHandler;
 use SugarCraft\Vterm\Mode\Mode;
-use SugarCraft\Ansi\Parser\Parser;
+use SugarCraft\AnsiParser\Parser\Parser;
 
 /**
  * Tests for DECAWM (DEC Auto-Wrap Mode) — CSI ? 7 h enable, CSI ? 7 l reset.

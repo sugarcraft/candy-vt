@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace SugarCraft\Vterm\Tests\Handler;
 
 use PHPUnit\Framework\TestCase;
-use SugarCraft\Ansi\Parser\Parser;
+use SugarCraft\AnsiParser\Parser\Parser;
 use SugarCraft\Vterm\Buffer\Buffer;
 use SugarCraft\Vterm\Cell;
 use SugarCraft\Vterm\Handler\ScreenHandler;

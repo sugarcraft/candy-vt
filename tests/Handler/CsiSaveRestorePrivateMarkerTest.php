@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace SugarCraft\Vterm\Tests\Handler;
 
 use PHPUnit\Framework\TestCase;
-use SugarCraft\Ansi\Parser\Parser;
+use SugarCraft\AnsiParser\Parser\Parser;
 use SugarCraft\Vterm\Buffer\Buffer;
 use SugarCraft\Vterm\Handler\ScreenHandler;
 use SugarCraft\Vterm\Terminal;
@@ -156,7 +156,7 @@ final class CsiSaveRestorePrivateMarkerTest extends TestCase
 
     public function testRendererFacadeIgnoresMarkedSaveRestoreToo(): void
     {
-        // The renderer half of the gate lives in candy-ansi
+        // The renderer half of the gate lives in sugar-ansi-parser
         // HandlerAdapter::csiDispatch() (the vcr engine's s/u route); the two
         // engines must agree — a kitty query must not teleport either cursor.
         $t = Terminal::new(10, 4);

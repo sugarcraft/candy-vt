@@ -10,7 +10,7 @@ use SugarCraft\Vterm\Handler\ScreenHandler;
 use SugarCraft\Vterm\Mode\Mode;
 use SugarCraft\Vterm\Msg\FocusInMsg;
 use SugarCraft\Vterm\Msg\FocusOutMsg;
-use SugarCraft\Ansi\Parser\Parser;
+use SugarCraft\AnsiParser\Parser\Parser;
 use SugarCraft\Vterm\Terminal\Terminal as FullTerminal;
 
 /**

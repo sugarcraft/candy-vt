@@ -9,7 +9,7 @@ use SugarCraft\Vterm\Buffer\Buffer;
 use SugarCraft\Vterm\CursorShape;
 use SugarCraft\Vterm\Handler\ScreenHandler;
 use SugarCraft\Vterm\Mode\Mode;
-use SugarCraft\Ansi\Parser\Parser;
+use SugarCraft\AnsiParser\Parser\Parser;
 
 /**
  * Tests for DECSCUSR (DEC Set Cursor Style) — CSI Ps SP q.
